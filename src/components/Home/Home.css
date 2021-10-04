@@ -1,0 +1,49 @@
+/* Home Header Section Start */
+.home-header{
+    background-color: #f3acbd5e;
+}
+.header-img img{
+    width:100%
+}
+.header-text{
+    padding-right: 50px;
+}
+.header-h1{
+    color:#202c45;
+    padding: 15px 0px;
+    font-size: 45px;
+}
+.header-h1 span{
+    color: #f2184f;
+}
+.header-h1 span:hover{
+    color:#202c45;
+}
+.header-p{
+    color: #202c45 ;
+    padding-bottom: 25px;
+    color: gray;
+}
+.btn{
+    background-color: #f2184f !important;
+    font-size: 16px !important;
+    
+}
+.btn:hover{
+    background-color:#202c45 !important;
+}
+/* Home Header Section End  */
+
+/* Home Servises Section Start  */
+.home-services-title{
+    padding:40px 0px 20px 0px;
+    text-align: center;
+}
+.home-services-h4{
+    color: #f2184f;
+}
+.home-services-h2{
+    color: #202c45;
+    font-size: 40px;
+}
+/* Home Servises Section End  */

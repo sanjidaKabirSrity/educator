@@ -1,0 +1,20 @@
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+    padding-bottom: 12px;
+}
+.NavLink{
+    text-decoration: none; 
+    color: #202c45 ;
+    font-weight: 500 ;
+    font-size: 18px ;
+    padding: 15px 15px;
+    margin: 15px 0px;
+    display: inline-block;
+}
+.NavLink:hover{
+    color: #f2184f;
+    border-bottom: 1px solid #f2184f;
+}
