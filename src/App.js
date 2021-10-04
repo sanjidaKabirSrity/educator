@@ -1,22 +1,44 @@
 import { BrowserRouter , Switch , Route } from 'react-router-dom';
 import './App.css';
-import Courses from './components/Courses/Courses';
+import { useEffect , useState } from 'react';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
+import NotFound from './components/NotFound/NotFound';
+import Services from './components/Services/Services';
+import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
+  const [services , setServices] = useState([])
+  useEffect(()=>{
+      fetch('./servicesData.json').then(res=> res.json()).then(data => setServices(data))
+  } ,[])
   return (
     <div>
       <BrowserRouter>
         <Navbar></Navbar>
         <Switch>
-        <Route path="/home">
-            <Home></Home>
+          <Route exact path="/home">
+            <Home services={services}></Home>
           </Route>
-          <Route path="/services">
-            <Courses></Courses>
+          <Route exact path="/">
+            <Home services={services}></Home>
+          </Route>
+          <Route exact path="/services">
+            <Services services={services}></Services>
+          </Route>
+          <Route exact path="/about">
+            <About></About>
+          </Route>
+          <Route exact path="/subscribe">
+            <Subscribe></Subscribe>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

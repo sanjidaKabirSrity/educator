@@ -1,0 +1,17 @@
+.subscribe-input{
+    margin: 25px;
+    border: none;
+    font-size: 17px;
+    padding: 12px;
+    width: 76%;
+    outline: none;
+}
+.subscribe-btn{
+    border: none;
+    font-size: 17px;
+    background-color: #f2184f;
+    color: white;
+    padding: 12px;
+    margin-left: -29px;
+    font-weight: 600;
+}

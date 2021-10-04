@@ -1,0 +1,86 @@
+[
+    {
+        "id":"1t",
+        "img": "https://i.ibb.co/Vx7Z4GD/Deconstructed-robot-amico.png",
+        "name":"Artificial Intelligence Fundamental Startup Learn",
+        "nickName":"Artificial Intelligence",
+        "fee":40
+    },
+    {
+        "id":"2t",
+        "img": "https://i.ibb.co/bRSfzrC/Work-in-progress-rafiki.png",
+        "name":"Computer Science Startup Varius et Commodo Working",
+        "nickName":"Computer Science",
+        "fee":35
+    },
+    {
+        "id":"3t",
+        "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
+        "name":"English Learning with Free Project Course Preparation",
+        "nickName":"English Grammer",
+        "fee":15
+    },
+    {
+        "id":"4t",
+        "img": "https://i.ibb.co/yNjXbft/Biologist-amico.png",
+        "name":"Material Chemestry Course For Begineers",
+        "nickName":"Civil Engineering",
+        "fee":23
+    },
+    {
+        "id":"5t",
+        "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
+        "name":"English Learning with Free Project Course Preparation",
+        "nickName":"English Grammer",
+        "fee":20
+    },
+    {
+        "id":"6t",
+        "img": "https://i.ibb.co/9cfJPQj/Software-engineer-bro.png",
+        "name":"Focus On Building Amazing Empire Strategy Tempor Justo",
+        "nickName":"Civil Engineering",
+        "fee":19
+    },
+    {
+        "id":"7t",
+        "img": "https://i.ibb.co/vLyc8QK/Online-world-amico.png",
+        "name":"Database Management Course For Beginners",
+        "nickName":"Artificial Intelligence",
+        "fee":25
+    },
+    {
+        "id":"8t",
+        "img": "https://i.ibb.co/JC6gpGz/Image-viewer-rafiki.png",
+        "name":"Graphic Design Fundamental Startup Learn",
+        "nickName":"Graphic Design",
+        "fee":20
+    },
+    {
+        "id":"9t",
+        "img": "https://i.ibb.co/5Lmgfrj/Business-Plan-amico.png",
+        "name":"Commercial Online Business Studies",
+        "nickName":"Business Studies",
+        "fee":29
+    },
+    {
+        "id":"10t",
+        "img": "https://i.ibb.co/1dyK92j/Business-challenge-bro.png",
+        "name":"General Education With Online",
+        "nickName":"General Education",
+        "fee":18
+    },
+    {
+        "id":"11t",
+        "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
+        "name":"Online Special Education System",
+        "nickName":"Online Education",
+        "fee":14
+    },
+    {
+        "id":"12t",
+        "img": "https://i.ibb.co/9rsRGP7/Static-assets-pana.png",
+        "name":"Learning Programming & Web Development",
+        "nickName":"Web Development",
+        "fee":21
+    }
+]

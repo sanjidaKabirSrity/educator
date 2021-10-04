@@ -1,0 +1,47 @@
+.card{
+    background-color: #f3acbd5e !important;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(85, 85, 85, 0.2) !important;
+}
+.services-text{
+    text-align: center; 
+}
+.services-texts{
+    height: 120px;
+}
+.services-title{
+    color: grey;
+    font-size: 11px;
+}
+.services-name{
+    color: #202c45;
+}
+.price{
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    font-weight: 600;
+    color: #202c45;
+    font-size: 16px;
+    justify-content: space-between;
+
+}
+.price:hover{
+    color: #f2184f;
+}
+.arrow-btn{
+    border: none;
+    background: #f2184f;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+.arrow-btn:hover{
+    background-color:#202c45;
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 16px;
+}
