@@ -7,7 +7,7 @@ import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
-import Subscribe from './components/Subscribe/Subscribe';
+import Teachers from './components/Teachers/Teachers';
 
 function App() {
   const [services , setServices] = useState([])
@@ -28,11 +28,11 @@ function App() {
           <Route exact path="/services">
             <Services services={services}></Services>
           </Route>
+          <Route exact path="/teachers">
+            <Teachers services={services}></Teachers>
+          </Route>
           <Route exact path="/about">
             <About></About>
-          </Route>
-          <Route exact path="/subscribe">
-            <Subscribe></Subscribe>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

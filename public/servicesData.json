@@ -4,6 +4,8 @@
         "img": "https://i.ibb.co/Vx7Z4GD/Deconstructed-robot-amico.png",
         "name":"Artificial Intelligence Fundamental Startup Learn",
         "nickName":"Artificial Intelligence",
+        "teacherName":"Anne Forbes",
+        "teacherImg":"https://i.ibb.co/2kCBmQp/anne-forbes.jpg",
         "fee":40
     },
     {
@@ -11,6 +13,8 @@
         "img": "https://i.ibb.co/bRSfzrC/Work-in-progress-rafiki.png",
         "name":"Computer Science Startup Varius et Commodo Working",
         "nickName":"Computer Science",
+        "teacherName":"Shotshop GmbH",
+        "teacherImg":"https://i.ibb.co/zfMGJ4Y/shotshop-gmb-H.jpg",
         "fee":35
     },
     {
@@ -18,6 +22,8 @@
         "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
         "name":"English Learning with Free Project Course Preparation",
         "nickName":"English Grammer",
+        "teacherName":"Ana Herry",
+        "teacherImg":"https://i.ibb.co/bPJ0htB/ana-herry.png",
         "fee":15
     },
     {
@@ -25,6 +31,8 @@
         "img": "https://i.ibb.co/yNjXbft/Biologist-amico.png",
         "name":"Material Chemestry Course For Begineers",
         "nickName":"Civil Engineering",
+        "teacherName":"Engr. Umer",
+        "teacherImg":"https://i.ibb.co/3c9VKT3/engrumer.jpg",
         "fee":23
     },
     {
@@ -32,6 +40,8 @@
         "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
         "name":"English Learning with Free Project Course Preparation",
         "nickName":"English Grammer",
+        "teacherName":"Jhon Herry",
+        "teacherImg":"https://i.ibb.co/sWpdjkK/Young-teacher-writing-english-grammar-on-the-board-Study-english-education-background.jpg",
         "fee":20
     },
     {
@@ -39,6 +49,8 @@
         "img": "https://i.ibb.co/9cfJPQj/Software-engineer-bro.png",
         "name":"Focus On Building Amazing Empire Strategy Tempor Justo",
         "nickName":"Civil Engineering",
+        "teacherName":"Ali Abolmaali",
+        "teacherImg":"https://i.ibb.co/MMCkwPN/aliabolmaali.jpg",
         "fee":19
     },
     {
@@ -46,6 +58,8 @@
         "img": "https://i.ibb.co/vLyc8QK/Online-world-amico.png",
         "name":"Database Management Course For Beginners",
         "nickName":"Artificial Intelligence",
+        "teacherName":"Morchona Niti",
+        "teacherImg":"https://i.ibb.co/VNR3Qz5/morchonaniti.jpg",
         "fee":25
     },
     {
@@ -53,6 +67,8 @@
         "img": "https://i.ibb.co/JC6gpGz/Image-viewer-rafiki.png",
         "name":"Graphic Design Fundamental Startup Learn",
         "nickName":"Graphic Design",
+        "teacherName":"Josh Smith",
+        "teacherImg":"https://i.ibb.co/NNZv8mQ/Josh-Smith.jpg",
         "fee":20
     },
     {
@@ -60,6 +76,8 @@
         "img": "https://i.ibb.co/5Lmgfrj/Business-Plan-amico.png",
         "name":"Commercial Online Business Studies",
         "nickName":"Business Studies",
+        "teacherName":"Suhag Barma",
+        "teacherImg":"https://i.ibb.co/FDGmjLs/suhagbarma.jpg",
         "fee":29
     },
     {
@@ -67,6 +85,8 @@
         "img": "https://i.ibb.co/1dyK92j/Business-challenge-bro.png",
         "name":"General Education With Online",
         "nickName":"General Education",
+        "teacherName":"Selim Cakra",
+        "teacherImg":"https://i.ibb.co/y6qNXwV/selimcakra.jpg",
         "fee":18
     },
     {
@@ -74,6 +94,8 @@
         "img": "https://i.ibb.co/R38Qgdr/Learning-languages-rafiki.png",
         "name":"Online Special Education System",
         "nickName":"Online Education",
+        "teacherName":"Florance Nightangle",
+        "teacherImg":"https://i.ibb.co/q7ybzVj/florancenightangle.jpg",
         "fee":14
     },
     {
@@ -81,6 +103,8 @@
         "img": "https://i.ibb.co/9rsRGP7/Static-assets-pana.png",
         "name":"Learning Programming & Web Development",
         "nickName":"Web Development",
+        "teacherName":"Sakib Robro",
+        "teacherImg":"https://i.ibb.co/82XBqgx/sakibrobro.jpg",
         "fee":21
     }
 ]

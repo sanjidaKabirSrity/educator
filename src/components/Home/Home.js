@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import './Home.css';
 import HeaderImg from '../../image/Platonic love-amico.png'
 import HomeServices from '../HomeServices/HomeServices';
+import Subscribe from '../Subscribe/Subscribe';
 
 const Home = (props) => {
     const {services} = props;
@@ -60,6 +61,9 @@ const Home = (props) => {
     </div>
     {/* Home Servises Section End */}
 
+    {/* Subscribe Section Start */}
+    <Subscribe></Subscribe>
+    {/* Subscribe Section End */}
 </div>
     );
 };

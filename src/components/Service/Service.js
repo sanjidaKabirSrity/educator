@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Button, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import './Service.css';
 
 const Service = (props) => {
@@ -16,10 +16,9 @@ const Service = (props) => {
           <div  className="services-texts">
           <Typography className="services-title">{nickName}</Typography>
           <Typography className="services-name"><h3>{name}</h3></Typography>
+          <Typography><p>Price ${fee}</p></Typography>
           </div>
-          <Typography className="services-fee">
-              
-          </Typography>
+          <Button variant="contained" className="btn">Buy Now</Button>
         </CardContent>
       </Card>
     );

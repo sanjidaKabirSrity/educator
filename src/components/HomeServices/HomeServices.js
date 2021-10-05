@@ -13,7 +13,7 @@ const HomeServices = (props) => {
     }
 
     return (
-        <Card sx={{ maxWidth: 345}} className="card">
+        <Card sx={{ maxWidth: 370}} className="card">
         <CardMedia
           component="img"
           height="auto"

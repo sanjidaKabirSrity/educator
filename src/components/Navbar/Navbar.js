@@ -6,6 +6,13 @@ import logo from '../../image/logo.png'
 import './Navbar.css';
 
 const Navbar = () => {
+    // Navtabs activator
+    const activeNavStyle={
+        fontWeight: "bold",
+        color: '#f2184f',
+        borderBottom: '1px solid #f2184f'
+      }
+
     return (
         <Container fixed>
         <Box sx={{ flexGrow: 1 }}>
@@ -19,10 +26,11 @@ const Navbar = () => {
         </Grid>
         <Grid item xs={5}>
             <nav>
-                <NavLink to="/home" className="NavLink">Home</NavLink>
-                <NavLink to="/services" className="NavLink">Services</NavLink>
-                <NavLink to="/about" className="NavLink">About Us</NavLink>
-                <NavLink to="/subscribe" className="NavLink">Subscribe</NavLink>
+                <NavLink to="/home" className="NavLink" activeStyle={activeNavStyle}>Home</NavLink>
+                <NavLink to="/services" className="NavLink" activeStyle={activeNavStyle}>Services</NavLink>
+                <NavLink to="/teachers" className="NavLink" activeStyle={activeNavStyle}>Teachers</NavLink>
+                <NavLink to="/about" className="NavLink" activeStyle={activeNavStyle}>About Us</NavLink>
+                {/* <NavLink to="/subscribe" className="NavLink" activeStyle={activeNavStyle}>Subscribe</NavLink> */}
             </nav>
         </Grid>
       </Grid>
