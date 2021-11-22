@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Teachers from './components/Teachers/Teachers';
 
+
 function App() {
   const [services , setServices] = useState([])
   useEffect(()=>{
